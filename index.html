@@ -35,6 +35,29 @@ body{
 .content:hover .content__circle{
     animation-play-state:paused;
 }
+@keyframes red-circle{
+    0%{
+        left: 0;
+    }
+    50%{
+        border-radius: 0%;
+    }
+    100%{
+        left: 500px;
+    }
+}
+
+@keyframes black-circle{
+    0%{
+        background-color: #ff0000;
+    }
+    50%{
+        background-color: #000000;
+    }
+    100%{
+        background-color: #ff0000;
+    }
+} 
 </style>
 </body>
 
